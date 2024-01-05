@@ -1,4 +1,5 @@
 ﻿using Domain.Entities;
+using Domain.Entities.Validations;
 using Domain.Interfaces.Repositories;
 using Domain.Interfaces.Services;
 
@@ -13,10 +14,14 @@ namespace Application.Services
         }
         public async Task CreateUserJarvis(UserJarvis userJarvis)
         {
+            if (!ExecuteValidation(new UserJarvisValidation(), userJarvis)) return;
+
             await _userJarvisRepository.Create(userJarvis);
         }
         public async Task UpdateUserJarvis(UserJarvis userJarvis)
         {
+            if (!ExecuteValidation(new UserJarvisValidation(), userJarvis)) return;
+
             await _userJarvisRepository.Update(userJarvis);
         }
 
