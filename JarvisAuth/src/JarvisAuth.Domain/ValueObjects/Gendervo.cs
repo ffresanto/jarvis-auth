@@ -7,4 +7,3 @@ public class GenderVO
     public TypeGenders Type { get; set; }
     public string? Name { get; set; }
 }
-
