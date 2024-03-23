@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JarvisAuth.Application", "src\JarvisAuth.Application\JarvisAuth.Application.csproj", "{B3379808-447F-48B0-8DE2-0BD1B2D8A935}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JarvisAuth.Core", "src\JarvisAuth.Core\JarvisAuth.Core.csproj", "{8DAC770E-F9B3-43BF-956C-7B1C24AB0E2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JarvisAuth.Domain", "src\JarvisAuth.Domain\JarvisAuth.Domain.csproj", "{0D0C912C-D60F-4849-AEEA-B443365875A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JarvisAuth.Infrastructure", "src\JarvisAuth.Infrastructure\JarvisAuth.Infrastructure.csproj", "{5FFBA2AA-AC0D-4B8A-9F3D-0592775C0DC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JarvisAuth.Tests", "tests\JarvisAuth.Tests\JarvisAuth.Tests.csproj", "{7A10141A-C9FC-4E41-BF08-2E9786280AA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JarvisAuth.WebAPI", "src\JarvisAuth.WebAPI\JarvisAuth.WebAPI.csproj", "{1770F8DD-48A7-4EB5-B6F9-5AC96120D8EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3379808-447F-48B0-8DE2-0BD1B2D8A935}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3379808-447F-48B0-8DE2-0BD1B2D8A935}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3379808-447F-48B0-8DE2-0BD1B2D8A935}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3379808-447F-48B0-8DE2-0BD1B2D8A935}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DAC770E-F9B3-43BF-956C-7B1C24AB0E2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DAC770E-F9B3-43BF-956C-7B1C24AB0E2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DAC770E-F9B3-43BF-956C-7B1C24AB0E2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DAC770E-F9B3-43BF-956C-7B1C24AB0E2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D0C912C-D60F-4849-AEEA-B443365875A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D0C912C-D60F-4849-AEEA-B443365875A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D0C912C-D60F-4849-AEEA-B443365875A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D0C912C-D60F-4849-AEEA-B443365875A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FFBA2AA-AC0D-4B8A-9F3D-0592775C0DC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FFBA2AA-AC0D-4B8A-9F3D-0592775C0DC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FFBA2AA-AC0D-4B8A-9F3D-0592775C0DC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FFBA2AA-AC0D-4B8A-9F3D-0592775C0DC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A10141A-C9FC-4E41-BF08-2E9786280AA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A10141A-C9FC-4E41-BF08-2E9786280AA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A10141A-C9FC-4E41-BF08-2E9786280AA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A10141A-C9FC-4E41-BF08-2E9786280AA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1770F8DD-48A7-4EB5-B6F9-5AC96120D8EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1770F8DD-48A7-4EB5-B6F9-5AC96120D8EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1770F8DD-48A7-4EB5-B6F9-5AC96120D8EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1770F8DD-48A7-4EB5-B6F9-5AC96120D8EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EFB1561E-405C-4815-9C0F-DA10F6601B21}
+	EndGlobalSection
+EndGlobal
