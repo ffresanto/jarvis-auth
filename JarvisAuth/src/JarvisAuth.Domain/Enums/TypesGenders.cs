@@ -1,6 +1,6 @@
 ﻿namespace JarvisAuth.Domain.Enums;
 
-public enum TypeGenders
+public enum TypesGenders : int
 {
     Male = 1,
     Famale = 2

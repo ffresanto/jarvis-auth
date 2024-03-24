@@ -1,6 +1,6 @@
 ﻿namespace JarvisAuth.Domain.Enums;
 
-public enum TypeUserJarvis
+public enum TypesUserJarvis : int
 {
     Default = 1,
     Administrator = 2

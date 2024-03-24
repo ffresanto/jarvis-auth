@@ -8,8 +8,16 @@
 
   <ItemGroup>
     <Folder Include="Configurations\" />
-    <Folder Include="Contexts\" />
     <Folder Include="Repositories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\JarvisAuth.Domain\JarvisAuth.Domain.csproj" />
   </ItemGroup>
 
 </Project>
